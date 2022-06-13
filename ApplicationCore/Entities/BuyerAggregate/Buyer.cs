@@ -24,5 +24,6 @@ namespace ApplicationCore.Entities.BuyerAggregate
             Guard.Against.NullOrEmpty(identity, nameof(identity));
             IdentityGuid = identity;
         }
+
     }
 }
