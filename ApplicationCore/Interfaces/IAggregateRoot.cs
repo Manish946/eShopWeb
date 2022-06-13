@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationCore.Entities
+namespace ApplicationCore.Interfaces
 {
-    public abstract class BaseEntity
+    public interface IAggregateRoot
     {
-        public virtual int Id { get;protected set; }
     }
 }
